@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .display-flex{
+    display: flex;
+  }
+  main{
+    max-width: 1440;
+    margin: 0  auto;
+  }
+  /* nav */
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 141px;
+    margin-right: 141px;
+    
+}
+.school-tittle{
+    font-size: 2rem;
+    font-weight: 700;  
+}
+.nav-logo{
+    width: 62px;
+    height: 62px;
+    margin-top: 20px ;
+}
+
+.nav-items{
+    list-style: none;
+    
+    margin-right: 2rem;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+
+}
+#home{
+    color: orange;
+}
+#about{
+    color: skyblue;
+}
+#facilities{
+    color: #05D4DF;
+}
+#admission{
+    color: #5D58EF;
+}
+.button-nav{
+    padding: 10px 60.5px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    background-color: orange;
+    border: none;
+}
+/* banner */
+.container{
+    margin-bottom: 60px;
+    
+}
+.banner-content{
+    width: 640px;
+    margin-left: 140px;
+    margin-top: 122px;
+}
+.banner-tittle{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.kids-img{
+    width: 468.61px;
+    height: 576px;
+    margin-left: 141px;
+}
+#empower{
+    color: orange;
+}
+#towards-vision{
+    color: skyblue;
+}
+.banner-description{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.banner-btn{
+    font-size:  1.25rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 47px;
+}
+/* standard-curriculum */
+.standard-background{
+    background-image: url(assets/bg.png);
+    
+}
+.curriculum-tittle{
+
+    font-size: 2.88rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.curriculum-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 141px;
+    margin-bottom: 200px;
+}
+.curriculum-card{
+
+    width: 367.8px;
+    height: 476.78px;
+    border-radius: 18.86px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 28.19px;
+}
+
+
+.card-name{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card-description{
+    font-size: 0.94rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+#kinder-card-bg{
+    background: linear-gradient(#DEF5FF 0%,#FFFFFF 40%);
+    border: 2px solid rgba(222, 245, 255, 1);
+
+}
+#elementary-card-bg{
+    background: linear-gradient(#FFF4DC 0%,#FFFFFF 40%);
+    border: 2px solid  rgba(255, 244, 220, 1);
+    
+
+}
+#middle-card-bg{
+    background: linear-gradient(#EEE1FF 0%,#FFFFFF 40%);
+    border: 2px solid  rgba(242, 232, 255, 1);
+}
+.card-btn{
+    border: none;
+    background-color: white;
+}
+#kinder-btn{
+    color: #64C8FF;
+}
+#elementary-btn{
+    color: #F0AA00;
+}
+#middle-btn{
+    color: #8700FF;
+}
+/* stories */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.grid .featured {
+    grid-row: span 4;
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    
+}

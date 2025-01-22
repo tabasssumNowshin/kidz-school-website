@@ -172,13 +172,162 @@
     color: #8700FF;
 }
 /* stories */
-.grid {
+.stories-background{
+    background-image: url(assets/bg.png);
+}
+.stories {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.grid .featured {
+
+.stories .stry-card1 {
     grid-row: span 4;
+}
+.stories-container{
+    margin: 80px 141.5px;
+
+}
+
+.story-tittle{
+    font-size: 2.88rem;
+    font-weight: 700;
+    text-align: center;
+}
+.card-content {
+    padding: 15px;
+}
+
+.story-img1{
+    width: 540px;
+    height:337px;
+    border-radius: 16px 16px 0 0;
+
+}
+.img-tittle1{
+    width: 402.9px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+}
+.img-description1{
+    width: 433.06px;
+    font-size: 0.96rem;
+    font-weight: 400;
+}
+
+.stry-card1{
+    width: 540.27px;
+    height: 630.52px;
+    background-color: #FFFFFF;
+
+}
+.stry-card2-4{
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    font-size: 0.96rem;
+    font-weight: 700;
+    background-color: #FFFFFF;
+}
+.stories-card{
+    border-radius: 16px;
+    border: 1px solid #D9D9D9;
+}
+.Story-Img2-3{
+    width: 291px;
+    height: 177px;
+    border-radius: 16px 16px 0 0;
+}
+.Story-Img4-5{
+    width: 291px;
+    height: 182px;
+    border-radius: 16px 16px 0 0;
+
+
+}
+
+.view-all {
+    text-align: center;
+    /* margin-top: 80px; */
+    margin-bottom: 60px;
+}
+.view-all button { 
+    padding: 10px 61px;
+    background: black;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.view-all button:hover {
+    background: skyblue;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #01ACFD;
+    
+    height: 519px;
+    color: white;
+}
+.footer-container{
+    
+    justify-content: space-between;
+    padding:123px 228.09px 174px 140px; 
+
+
+}
+.footer-container{
+    width: 1070.91px;
+    height: 222;
+    padding:123px 228.09px 174px 140px; 
+    
+}
+
+#footer-line{
+    width: 399.02px;
+    
+}
+.footer-tittle{
+    font-size: 2.63rem;
+    font-weight: 700;
+    width: 206.11px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footer-img{
+    width: 70.34px;
+    height: 81.65px;
+
+}
+
+.footer-tittle2{
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    
+}
+div ul{
+    list-style: none;
+}
+div ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+div ul li{
+    margin-bottom: 20px;
+}
+.footer-tittle3{
+    font-size: 1.63rem;
+    font-weight: 700;
+    
+}
+div img{
+    margin-right: 10.15px;
 }
 
 

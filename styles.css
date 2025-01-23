@@ -4,11 +4,7 @@
 .quicksand-font {
     font-family: "Quicksand", serif;
   }
-  *{
-    /* margin: 0; */
-    /* padding: 0; */
-    /* box-sizing: border-box; */
-  }
+  
   .display-flex{
     display: flex;
   }
@@ -17,18 +13,24 @@
 .nav-bar{
     justify-content: space-between;
     align-items: center;
-    margin-left: 141px;
-    margin-right: 141px;
+    /* margin-left: 141px; */
+    /* margin-right: 141px; */
+    max-width: 1440px;
+    margin: 50px auto;
     
 }
-.school-tittle{
-    font-size: 2rem;
-    font-weight: 700;  
+
+.nav-bar img{
+    margin-left: 80px;
 }
-.nav-logo{
-    width: 62px;
-    height: 62px;
-    margin-top: 20px ;
+.nav-bar .school-tittle{
+    font-size: 2rem;
+    font-weight: 700;
+      
+}
+
+.nav-links{
+    margin-right: 200px;
 }
 
 .nav-items{
@@ -63,16 +65,27 @@
     font-size: 1.1rem;
     font-weight: 600;
 }
+.menu-icon{
+    font-size: 2rem;
+    padding: 20px 16px;
+    display: none;
+}
 /* banner */
 .container{
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
     
 }
 .banner-content{
-    width: 640px;
-    margin-left: 140px;
-    margin-top: 122px;
-}
+    /* width: 640px; */
+    /* margin-left: 140px;
+    /* margin-top: 122px; */
+    margin-bottom: 50px;
+    margin-top: 50px;
+}   
 .banner-tittle{
     font-size: 3.5rem;
     font-weight: 700;
@@ -80,7 +93,7 @@
 .kids-img{
     width: 468.61px;
     height: 576px;
-    margin-left: 141px;
+    /* margin-left: 141px; */
 }
 #empower{
     color: orange;
@@ -119,6 +132,7 @@
     grid-template-columns: repeat(3,1fr);
     margin-left: 141px;
     margin-bottom: 200px;
+    gap: 80px;
 }
 .curriculum-card{
 
@@ -129,6 +143,7 @@
     align-items: center;
     justify-content: center;
     margin-right: 28.19px;
+  
 }
 
 
@@ -302,7 +317,22 @@
     grid-row: span 2;
     grid-column: span 2;
 }
-
+.stry-card2{
+    width: 640px;
+    height: 645px;
+}
+.stry-card3{
+    width: 640px;
+    height: 645px;
+}
+.stry-card4{
+    width: 640px;
+    height: 645px;
+}
+.stry-card5{
+    width: 640px;
+    height: 645px;
+}
 
 .stry-card2-4{
     width: 290.69px;

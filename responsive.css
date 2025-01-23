@@ -1,0 +1,73 @@
+@media screen and (max-width:576px){
+    .nav-bar > h3,.nav-links,.button-nav,.arrow-icon,.stry-card1{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .nav-bar{
+        border-bottom: 1px solid  orange;
+    }
+    .nav-bar img{
+        margin: 12px;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+    .curriculum-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-right: 80px;
+        margin-top: 50px;
+       
+        
+    }
+    .curriculum-card{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        margin: 0 -20px;
+        
+    }
+    .stories{
+        grid-template-columns: 1fr;
+        gap: 10px;
+       
+    }
+    .stry-card2{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .stry-card3{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .stry-card4{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .stry-card5{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .footer-container{
+        flex-direction: column;
+        padding: 50px 20px 50px 20px; 
+    }
+    .footer-column2{
+        margin-left: -40px;
+    }
+
+
+
+
+}

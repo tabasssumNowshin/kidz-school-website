@@ -13,10 +13,10 @@
 .nav-bar{
     justify-content: space-between;
     align-items: center;
-    /* margin-left: 141px; */
-    /* margin-right: 141px; */
-    max-width: 1440px;
-    margin: 50px auto;
+    margin-left: 100px; 
+    margin-right: 141px;
+    max-width: 1440px; 
+    /* margin: 50px 120px;  */
     
 }
 
@@ -74,7 +74,7 @@
 .container{
     /* margin-bottom: 60px; */
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0 141px;
     justify-content: space-between;
     align-items: center;
     
@@ -216,9 +216,9 @@
     background-size: cover;
 }
 
-/* .bg-linear{ */
-    /* background: url(assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%); */
-/* } */
+.bg-linear{
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
 .stories {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -236,16 +236,12 @@
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 500;
-    background-color: #3CD8E8;
+    background-color: #95B226;
     border-radius: 47px;
     border: none;
 
 }
-.stories-image{
-    display: flex;
-    position: relative;
-}
-.stories-image .stry-btn{
+.stories-image1 .stry-btn2{
     position: absolute;
     bottom: -20px;
     left: 40px;
@@ -253,12 +249,12 @@
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 500;
-    background-color: #3CD8E8;
+    background-color: #95B226;
     border-radius: 47px;
     border: none;
 
 }
-.stories-image .stry-btn2{
+.stories-image1 .stry-btn3{
     position: absolute;
     bottom: -20px;
     left: 40px;
@@ -266,11 +262,38 @@
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 500;
-    background-color: #3CD8E8;
+    background-color: #5D58F0;
     border-radius: 47px;
     border: none;
 
 }
+.stories-image1 .stry-btn4{
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+    padding: 14px 18px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #95B226;
+    border-radius: 47px;
+    border: none;
+
+}
+.stories-image1 .stry-btn5{
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+    padding: 14px 18px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #95B226;
+    border-radius: 47px;
+    border: none;
+
+}
+
 .margin{
     max-width: 1440px;
     margin: 0 auto;
@@ -379,7 +402,7 @@
 }
 .marquee{
     font-size: 2rem;
-    margin-bottom: 100px;
+    margin-bottom: 0;
     font-weight: bold;
     color: black;
 }

@@ -7,8 +7,10 @@
     }
     .nav-bar{
         border-bottom: 1px solid  orange;
+        gap: 150px;
     }
     .nav-bar img{
+    
         margin: 12px;
     }
     .banner-content{
